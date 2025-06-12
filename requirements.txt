@@ -1,0 +1,6 @@
+Flask
+requests
+pywin32
+browser-cookie3
+pycryptodome
+pyOpenSSL
